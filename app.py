@@ -6,8 +6,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # PATHS
-SVM_MODEL_PATH  = "outputs/linear/linear_model.pkl"
-VECTORIZER_PATH = "outputs/vectorizer.pkl"
+SVM_MODEL_PATH  = "models/linear_model.pkl"
+VECTORIZER_PATH = "models/vectorizer.pkl"
 
 # THE KEYS
 RESET_KEY = "reset_counter"
